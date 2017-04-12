@@ -1,2 +1,3 @@
 # dump1090-fa-db-changes
-Updates to the aircraft registration database provided by dump1090-fa
+
+`ICAO_Type_Updates.sh` contains updates to the aircraft registration database provided by dump1090-fa.  To use it, run `sudo ./ICAO_Type_Updates.sh`.
