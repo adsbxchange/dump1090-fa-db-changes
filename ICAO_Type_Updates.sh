@@ -61,6 +61,8 @@ sed -i 's/"795":{/"795":{"t":"C25C",/g' /usr/share/dump1090-fa/html/db/A4E.json
 
 sed -i 's/"C3D":{/"C3D":{"t":"C25C",/g' /usr/share/dump1090-fa/html/db/A56.json
 
+sed -i 's/"A4C":{/"A4C":{"t":"C68A",/g' /usr/share/dump1090-fa/html/db/A66.json
+
 sed -i 's/"8DB":{/"8DB":{"t":"C25M",/g' /usr/share/dump1090-fa/html/db/A68.json
 
 sed -i 's/"8D4":{/"8D4":{"t":"H25C",/g' /usr/share/dump1090-fa/html/db/A69.json
