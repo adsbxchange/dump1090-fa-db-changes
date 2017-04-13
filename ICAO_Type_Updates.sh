@@ -53,6 +53,8 @@ sed -i 's/"338":{/"338":{"t":"C68A",/g' /usr/share/dump1090-fa/html/db/A45.json
 
 sed -i 's/"6A9":{/"6A9":{"t":"BE58",/g' /usr/share/dump1090-fa/html/db/A48.json
 
+sed -i 's/"6FD":{/"6FD":{"t":"P180",/g' /usr/share/dump1090-fa/html/db/A49.json
+
 sed -i 's/"857":{/"857":{"t":"BE9L",/g' /usr/share/dump1090-fa/html/db/A4C.json
 
 sed -i 's/"795":{/"795":{"t":"C25C",/g' /usr/share/dump1090-fa/html/db/A4E.json
@@ -94,6 +96,8 @@ sed -i 's/"D76":{/"D76":{"t":"C68A",/g' /usr/share/dump1090-fa/html/db/AA4.json
 
 sed -i 's/"4F8":{/"4F8":{"t":"C25B",/g' /usr/share/dump1090-fa/html/db/AA5.json
 
+sed -i 's/"DAE":{/"DAE":{"t":"B350",/g' /usr/share/dump1090-fa/html/db/AAF.json
+
 sed -i 's/"9F61":{/"9F61":{"t":"B350",/g' /usr/share/dump1090-fa/html/db/AB.json
 
 sed -i 's/"49C":{/"49C":{"t":"SB20",/g' /usr/share/dump1090-fa/html/db/AB1.json
@@ -103,6 +107,7 @@ sed -i 's/"A19":{/"A19":{"t":"B350",/g' /usr/share/dump1090-fa/html/db/AB3.json
 
 sed -i 's/"8F5":{/"8F5":{"t":"B350",/g' /usr/share/dump1090-fa/html/db/AB4.json
 
+sed -i 's/"074":{/"074":{"t":"B350",/g' /usr/share/dump1090-fa/html/db/AB7.json
 sed -i 's/"E98":{/"E98":{"t":"RV7",/g' /usr/share/dump1090-fa/html/db/AB7.json
 
 sed -i 's/"CCE":{/"CCE":{"t":"B350",/g' /usr/share/dump1090-fa/html/db/AB8.json
@@ -150,8 +155,11 @@ sed -i 's/"D0DC9"/"D08F7":{"r":"XA-FLC","t":"F2TH"},"D0DC9"/g' /usr/share/dump10
 sed -i 's/"D0DC9"/"D08FD":{"r":"XA-VLK","t":"A320"},"D0DC9"/g' /usr/share/dump1090-fa/html/db/0.json
 sed -i 's/"D0DC9"/"D09D0":{"r":"XA-ADL","t":"B789"},"D0DC9"/g' /usr/share/dump1090-fa/html/db/0.json
 sed -i 's/"D0DC9"/"D09E5":{"r":"XA-ADC","t":"B789"},"D0DC9"/g' /usr/share/dump1090-fa/html/db/0.json
+sed -i 's/"D0DC9"/"D0A29":{"r":"XA-JRM","t":"A320"},"D0DC9"/g' /usr/share/dump1090-fa/html/db/0.json
 
 sed -i 's/"FDEC"/"FC63":{"t":"E55P"},"FDEC"/g' /usr/share/dump1090-fa/html/db/3C.json
+
+sed -i 's/"D211C"/"D211A":{"r":"9H-VJR","t":"GLEX"},"D211C"/g' /usr/share/dump1090-fa/html/db/4.json
 
 sed -i 's/"B18C"/"B146":{"r":"TC-LJF","t":"B77W"},"B18C"/g' /usr/share/dump1090-fa/html/db/4B.json
 
@@ -163,6 +171,7 @@ sed -i 's/"98035"/"80F4C":{"r":"B-8415","t":"A320"},"98035"/g' /usr/share/dump10
 sed -i 's/"E0117"/"E0116":{"r":"97-5305","t":"C30J"},"E0117"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E0191"/"E016D":{"r":"84-0075","t":"LJ35"},"E0191"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E0191"/"E017A":{"r":"84-0142","t":"LJ35"},"E0191"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E02E8"/"E02E0":{"r":"89-1188","t":"C130"},"E02E8"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E035A"/"E0359":{"r":"57-1439","t":"K35R"},"E035A"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E0371"/"E036D":{"r":"98-0007","t":"C560"},"E0371"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E03F9"/"E03F3":{"r":"84-0159","t":"BE20"},"E03F9"/g' /usr/share/dump1090-fa/html/db/A.json
@@ -182,10 +191,48 @@ sed -i 's/"E1F20"/"E1E75":{"r":"16-6023","t":"TEX2"},"E1F20"/g' /usr/share/dump1
 sed -i 's/"E272F"/"E2709":{"t":"CN35","desc":"L2T-M"},"E272F"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E29DD"/"E29CF":{"r":"08-6202","t":"C30J"},"E29DD"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E29FD"/"E29FC":{"r":"16-8205","t":"B350"},"E29FD"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E2F5B"/"E2EEE":{"r":"16-6113","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E2F5B"/"E2EEF":{"r":"16-6114","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E2F5B"/"E2EF0":{"r":"16-6115","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E2F5B"/"E2EF1":{"r":"16-6116","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E2F5B"/"E2EF2":{"r":"16-6117","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E2F5B"/"E2EF3":{"r":"16-6118","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E2F5B"/"E2EF4":{"r":"16-6119","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"E2F5B"/"E2EF5":{"r":"16-6120","t":"TEX2"},"E2F5B"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E4BDE"/"E4AF6":{"r":"08-5678","t":"C30J"},"E4BDE"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"E4BDE"/"E4BDD":{"r":"10-5700","t":"C30J"},"E4BDE"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54DA":{"r":"16-6200","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54DB":{"r":"16-6201","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54DC":{"r":"16-6202","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54DD":{"r":"16-6203","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54DE":{"r":"16-6204","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54DF":{"r":"16-6205","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E0":{"r":"16-6206","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E1":{"r":"16-6207","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E2":{"r":"16-6208","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E3":{"r":"16-6209","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E4":{"r":"16-6210","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E5":{"r":"16-6211","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E6":{"r":"16-6212","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E7":{"r":"16-6213","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E8":{"r":"16-6214","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54E9":{"r":"16-6215","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54EA":{"r":"16-6216","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54EB":{"r":"16-6217","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54EC":{"r":"16-6218","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54ED":{"r":"16-6219","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54EE":{"r":"16-6220","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54EF":{"r":"16-6221","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F0":{"r":"16-6222","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F1":{"r":"16-6223","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"children"/"E54F2":{"r":"16-6224","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F3":{"r":"16-6225","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F4":{"r":"16-6226","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F5":{"r":"16-6227","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F6":{"r":"16-6228","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F7":{"r":"16-6229","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F8":{"r":"16-6230","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
+sed -i 's/"children"/"E54F9":{"r":"16-6231","t":"TEX2"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"children"/"E571A":{"r":"16-9036","t":"B737"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"children"/"E5774":{"r":"10-0259","t":"BE20"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
 sed -i 's/"children"/"E57C5":{"r":"16-9000","t":"P8"},"children"/g' /usr/share/dump1090-fa/html/db/A.json
