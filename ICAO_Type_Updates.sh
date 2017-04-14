@@ -12,12 +12,16 @@ sed -i 's/"2EC":{"t":"B741"}/"2EC":{"t":"BSCA"}/g' /usr/share/dump1090-fa/html/d
 
 sed -i 's/"26E":{/"26E":{"t":"C25C",/g' /usr/share/dump1090-fa/html/db/A0.json
 
+sed -i 's/"CAB":{/"CAB":{"t":"RV10",/g' /usr/share/dump1090-fa/html/db/A00.json
+
 sed -i 's/"9F0":{/"9F0":{"t":"PA46",/g' /usr/share/dump1090-fa/html/db/A01.json
 sed -i 's/"F06":{/"F06":{"t":"AC50",/g' /usr/share/dump1090-fa/html/db/A01.json
 
 sed -i 's/"A23":{/"A23":{"t":"EVOT",/g' /usr/share/dump1090-fa/html/db/A07.json
 
 sed -i 's/"AE7":{/"AE7":{"t":"P180",/g' /usr/share/dump1090-fa/html/db/A08.json
+
+sed -i 's/"7A8":{/"7A8":{"t":"RV9",/g' /usr/share/dump1090-fa/html/db/A17.json
 
 sed -i 's/"4B9":{/"4B9":{"t":"BE20",/g' /usr/share/dump1090-fa/html/db/A1A.json
 
@@ -55,6 +59,8 @@ sed -i 's/"6A9":{/"6A9":{"t":"BE58",/g' /usr/share/dump1090-fa/html/db/A48.json
 
 sed -i 's/"6FD":{/"6FD":{"t":"P180",/g' /usr/share/dump1090-fa/html/db/A49.json
 
+sed -i 's/"F72":{/"F72":{"t":"MD83",/g' /usr/share/dump1090-fa/html/db/A50.json
+
 sed -i 's/"857":{/"857":{"t":"BE9L",/g' /usr/share/dump1090-fa/html/db/A4C.json
 
 sed -i 's/"795":{/"795":{"t":"C25C",/g' /usr/share/dump1090-fa/html/db/A4E.json
@@ -82,12 +88,16 @@ sed -i 's/"3A3":{/"3A3":{"t":"BE20",/g' /usr/share/dump1090-fa/html/db/A75.json
 
 sed -i 's/"F41":{/"F41":{"t":"G150",/g' /usr/share/dump1090-fa/html/db/A81.json
 
+sed -i 's/"D82":{/"D82":{"t":"C68A",/g' /usr/share/dump1090-fa/html/db/A82.json
+
 sed -i 's/"59C":{/"59C":{"t":"G150",/g' /usr/share/dump1090-fa/html/db/A85.json
 sed -i 's/"953":{/"953":{"t":"G150",/g' /usr/share/dump1090-fa/html/db/A85.json
 
 sed -i 's/"0C1":{/"0C1":{"t":"G150",/g' /usr/share/dump1090-fa/html/db/A86.json
 
 sed -i 's/"D04":{/"D04":{"t":"C56X",/g' /usr/share/dump1090-fa/html/db/A87.json
+
+sed -i 's/"2DD":{/"2DD":{"t":"COL3",/g' /usr/share/dump1090-fa/html/db/A89.json
 
 sed -i 's/"145":{/"145":{"t":"CH70",/g' /usr/share/dump1090-fa/html/db/A96.json
 sed -i 's/"F42":{/"F42":{"t":"H25C",/g' /usr/share/dump1090-fa/html/db/A96.json
@@ -121,6 +131,7 @@ sed -i 's/"995":{/"995":{"t":"B350",/g' /usr/share/dump1090-fa/html/db/AC1.json
 sed -i 's/"223":{/"223":{"t":"MD83",/g' /usr/share/dump1090-fa/html/db/AC2.json
 
 sed -i 's/"419":{/"419":{"t":"A320",/g' /usr/share/dump1090-fa/html/db/AC7.json
+sed -i 's/"F3E":{/"F3E":{"t":"A320",/g' /usr/share/dump1090-fa/html/db/AC7.json
 
 sed -i 's/"D5E":{/"D5E":{"t":"MD90",/g' /usr/share/dump1090-fa/html/db/ACC.json
 
@@ -251,9 +262,11 @@ sed -i 's/"FD65"/"FCA2":{"r":"92-0353","t":"BE40"},"FD65"/g' /usr/share/dump1090
 sed -i 's/"FD65"/"FCA4":{"r":"92-0355","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD65"/"FCB7":{"r":"93-0631","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD65"/"FCC0":{"r":"93-0640","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
+sed -i 's/"FD65"/"FCD1":{"r":"94-0114","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD65"/"FCD7":{"r":"94-0120","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD65"/"FCE5":{"r":"94-0134","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD65"/"FCFD":{"r":"95-0049","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
+sed -i 's/"FD65"/"FCFE":{"r":"95-0050","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD65"/"FCFF":{"r":"95-0051","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD65"/"FD0C":{"r":"95-0064","t":"BE40"},"FD65"/g' /usr/share/dump1090-fa/html/db/AD.json
 sed -i 's/"FD6D"/"FD66":{"r":"88-2102","t":"C130"},"FD6D"/g' /usr/share/dump1090-fa/html/db/AD.json
@@ -275,6 +288,7 @@ sed -i 's/"046EC"/"04654":{"t":"A319"},"046EC"/g' /usr/share/dump1090-fa/html/db
 sed -i 's/"04953"/"04937":{"t":"ASTR"},"04953"/g' /usr/share/dump1090-fa/html/db/C.json
 sed -i 's/"052A4"/"05220":{"t":"GLF4"},"052A4"/g' /usr/share/dump1090-fa/html/db/C.json
 sed -i 's/"05CDD"/"05CBB":{"t":"A332"},"05CDD"/g' /usr/share/dump1090-fa/html/db/C.json
+sed -i 's/"06C9C"/"06C94":{"t":"LJ45"},"06C9C"/g' /usr/share/dump1090-fa/html/db/C.json
 sed -i 's/"073E2"/"073DB":{"t":"B737"},"073E2"/g' /usr/share/dump1090-fa/html/db/C.json
 sed -i 's/"088C1"/"088BB":{"t":"B738"},"088C1"/g' /usr/share/dump1090-fa/html/db/C.json
 
